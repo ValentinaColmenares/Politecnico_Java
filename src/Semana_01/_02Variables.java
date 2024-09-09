@@ -1,8 +1,8 @@
-package Paquete;
+package Semana_01;
 
 // Tema 2: Variables y tipos de datos
 
-public class Variables {
+public class _02Variables {
 
     public static void main(String[] args) {
 

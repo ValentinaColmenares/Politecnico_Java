@@ -1,8 +1,8 @@
-package Paquete;
+package Semana_01;
 
 // Tema 1: Conceptos básicos
 
-public class HolaMundo {
+public class _01HolaMundo {
 
     public static void main(String[] args) {
 

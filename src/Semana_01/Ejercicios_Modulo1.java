@@ -1,4 +1,4 @@
-package Paquete;
+package Semana_01;
 
 public class Ejercicios_Modulo1 {
     public static void main(String[] args) {

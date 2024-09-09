@@ -1,8 +1,8 @@
-package Paquete;
+package Semana_01;
 
 // Tema 4: Math
 
-public class MathClass {
+public class _04MathClass {
     public static void main(String[] args) {
 
         double valorPi = Math.PI;

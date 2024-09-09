@@ -1,8 +1,8 @@
-package Paquete;
+package Semana_01;
 
 // Tema 3: Operadores
 
-public class Operadores {
+public class _03Operadores {
     public static void main(String[] args) {
 
         //Asignación
