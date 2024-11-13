@@ -1,4 +1,4 @@
-package Semana_01.EjerciciosOperadores.ClasesOperadores;
+package Semana_01.EjerciciosOperadores;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
