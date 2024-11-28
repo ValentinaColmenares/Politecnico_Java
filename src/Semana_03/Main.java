@@ -1,7 +1,5 @@
 package Semana_03;
 
-import Semana_03.Clase.Clarinete;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -124,6 +122,37 @@ public class Main {
 
         Clarinete clarineteNegro = new Clarinete();
         clarineteNegro.tocar();
+
+        // Clases anidadas
+
+        Usuario usuario = new Usuario("Diego");
+        usuario.establecerRoles();
+
+        // Clases abstractas
+
+        String colorDelCuadrado = "Verde";
+        double ladoDelCuadrado = 2.5;
+
+        Cuadrado cuadrado = new Cuadrado(colorDelCuadrado, ladoDelCuadrado);
+        System.out.println("El área del cuadrado "+ cuadrado.getColor() +" es: " + cuadrado.calcularArea());
+
+        String colorDelTriangulo = "Amarillo";
+        double baseDelTriangulo = 8.3;
+        double alturaDelTriangulo = 2.5;
+
+        Triangulo triangulo1 = new Triangulo(colorDelTriangulo, baseDelTriangulo, alturaDelTriangulo);
+        System.out.println("El área del triángulo " + triangulo1.getColor() + " es: " + triangulo1.calcularArea());
+
+        // Interfaces
+
+        BarcoPirata sunny = new BarcoPirata();
+
+        sunny.setX(450);
+        sunny.setY(180);
+
+        sunny.moverPosicion(50, 20);
+        sunny.conocerPosicion();
+        sunny.disparar();
 
     }
 }
