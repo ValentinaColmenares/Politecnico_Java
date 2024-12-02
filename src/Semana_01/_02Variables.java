@@ -22,7 +22,7 @@ public class _02Variables {
         int numeroInt = 41825;
 
         // long: Emplea el tamaño mayor de todos los enteros, 8 bytes (64 bits).
-        // Esto permite almacenar valroes entre [-9223372036854775808, 9223372036854775807].
+        // Esto permite almacenar valores entre [-9223372036854775808, 9223372036854775807].
         long numeroLong = 926465464697266565L;
 
         // Números flotantes
