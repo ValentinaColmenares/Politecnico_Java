@@ -34,5 +34,20 @@ public class Main {
         map.computeIfAbsent("Dan", k -> k.length());
 
         map.replace("Alice", 30, 35);
+
+        // Uso:
+        Caja<String> cajaString = new Caja<>();
+        cajaString.guardar("Hola");
+        System.out.println(cajaString.obtener());
+
+        Caja<Integer> cajaInteger = new Caja<>();
+        cajaInteger.guardar(123);
+        System.out.println(cajaInteger.obtener());
+
+        // Uso:
+        Utilidad.imprimirElemento("Texto");
+        Utilidad.imprimirElemento(456);
+        Utilidad.imprimirElemento(3.14);
+
     }
 }
