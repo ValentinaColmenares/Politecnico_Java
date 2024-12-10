@@ -10,6 +10,21 @@ public class Main {
 
         Recursividad recursividad = new Recursividad();
         System.out.println("El factorial de 5 es: " + recursividad.factorial(5));
+        System.out.println("La sumatoria de 5 es: " + recursividad.sumatoria(5));
+        int array[] = {1,2,3,4,5,6,7,8,9,0};
+        recursividad.recorrerArray(array,0);
+        System.out.println();
+        recursividad.buscarElementoEnArray(array,0,10);
+
+        int matriz[][] = {{1, 2, 3},
+                     {4, 5, 6},
+                     {7, 8, 9}};
+
+        recursividad.recorrerMatrizRecursivo(matriz, 0, 0);
+        System.out.println();
+        System.out.println(recursividad.fibonacciHastaPosicion(6));
+
+        // Más ejemplos en https://www.discoduroderoer.es/ejercicios-propuestos-y-resueltos-de-recursividad-java/
 
         Map<String, Integer> map = new HashMap<>();
         map.put("Alice", 30);
